@@ -20,7 +20,7 @@ public class CustomerController {
 	
 	@Autowired
 	CustomerService service;
-	
+	 
 	@GetMapping("/")
 	public String display()
 	{
